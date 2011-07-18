@@ -1,0 +1,10 @@
+name: LoginMessages
+main: me.CAR145.LoginMessages.LoginMessages
+version: 0.0
+description: >
+             Login messages to greet new people and /rules command to tell them the rules
+commands:  
+  Rules:
+      description: list the basic rules of the server
+      usage: |
+           /Rules
