@@ -33,7 +33,7 @@ public class LoginMessages extends JavaPlugin {
 		PluginManager pm = getServer().getPluginManager();
 		pm.registerEvent(Event.Type.PLAYER_JOIN, this.playerListener, Event.Priority.Normal, this);
 		PluginDescriptionFile pdfFile = this.getDescription();
-		this.log.info(pdfFile.getName() + " Version " + pdfFile.getVersion() + " Is Enabled! ");
+		this.log.info("[" + pdfFile.getName() + "]" + " Version " + pdfFile.getVersion() + " Is Enabled! ");
 		loadConfig();
 	}
 
